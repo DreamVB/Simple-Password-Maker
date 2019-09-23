@@ -5,6 +5,7 @@ import sys
 p_Upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 p_Lower = 'abcdefghijklmnopqrstuvwxyz'
 p_Digit = '0123456789'
+p_Sysbol = "!\"#$%&'()*+,-./:;<=>?@[]^_{|}~"
 
 p_set = ''
 x = 0
@@ -30,6 +31,8 @@ for flag in sys.argv:
             p_set += p_Lower
         if flag == '/D':
             p_set += p_Digit
+        if flag == '/S':
+            p_set += p_Sysbol
 
 x = 0
 #Set defaults

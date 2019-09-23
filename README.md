@@ -16,6 +16,7 @@ To create a password with just uppercase letter use
 /U Uppercase letters
 /L Lowercase letters
 /D Digits 0-9
+/S Sysmbols
 </code>
 </pre>
 
